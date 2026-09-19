@@ -23,13 +23,3 @@ public class Workers {
 
 
 
-/*
- * Question:1. Is your design ready to easily accept changes in how to calculate the total salary (e.g., taking taxes into account)?
- * Answer: As we used encapsulation concept, it is easy to change calculation of salary. If tax  or any extra bonuses need to be added later, we only need to update the  getTotalSalary(), without modifying the main application
- */
-
-
-/*
- * Question:2. How to implement the case where I don't use all of the 100 "spaces" for workers (e.g., if my company only has 20 workers)?
- * answer: Instead of using fixed sized array we can use Arraylist for avoiding memory wastage. In my code I already have used Arraylist.
- * */
